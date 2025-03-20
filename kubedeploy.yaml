@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: nidhin-container
-        image: nidhinkm/sa-mywebappsvc-img:v1.0
+        image: nidhinkm/sa-mywebappsvc:latest
         ports:
         - containerPort: 8080
 ---
